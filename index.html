@@ -1,1 +1,99 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product landing page</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header id="header">
+        <img src="original_trombones.png" alt="company logo" id="header-img">
+        <nav id="nav-bar">
+            <a href="#features" class="nav-link">Features</a>
+            <a href="#working" class="nav-link">How it Works</a>
+            <a href="#pricing" class="nav-link">Pricing</a>
+        </nav>
+    </header>
+    <main>
+        <div id="form-container">
+            <h1>Handcrafted, home-made masterpieces</h1>
+            <form action="https://www.freecodecamp.com/email-submit" id="form">
+                <input type="email" name="email" id="email" placeholder="Enter your email address">
+                <input type="submit" value="GET STARTED " id="submit">
+            </form>
+        </div>
+        <div id="features">
+            <section>
+                <img src="truck-facing-right.svg" alt="premium icon">
+                <div>
+                    <p>
+                        <b>Premium Materials</b><br>
+                        Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your
+                        purchase.
+                    </p>
+                </div>
+            </section>
+            <section>
+                <img src="truck-facing-right.svg" alt="livraison icon">
+                <div>
+                    <p><b>Fast Shipping</b><br>
+                        We make sure you receive your trombone as soon as we have finished making it. We also provide free returns if
+                        you are not satisfied.
+                    </p>
+                </div>
+            </section>
+            <section>
+                <img src="truck-facing-right.svg" alt="quality icon">
+                <div>
+                    <p>
+                        <b>Quality Assurance</b><br>
+                        For every purchase you make, we will ensure there are no damages or faults and we will check and test the
+                        pitch
+                        of your instrument.
+                    </p>
+                </div>
+            </section>
+        </div>
+        <div class="video">
+            <video controls id="working">
+                <source src="material_design.mp4">
+            </video>
+        </div>
+        <div id="pricing">
+            <div class="card">
+                <h1>TENOR TROMBONE</h1>
+                <p class="price">$600</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos hic delectus rem quos reprehenderit cupiditate
+                    nesciunt consequatur ratione, voluptatem possimus facilis nulla ex, ut libero, repudiandae repellendus
+                    incidunt tempora! Velit.</p>
+                <p><button>SELECT</button></p>
+            </div>
+            <div class="card">
+                <h1>BASS TROMBONE</h1>
+                <p class="price">$900</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus labore, veniam quidem amet eum dolorum.
+                    Quos modi consequuntur ab quo dignissimos consectetur accusantium! Quae debitis sequi, illum recusandae
+                    autem quia!</p>
+                <p><button>SELECT</button></p>
+            </div>
+            <div class="card">
+                <h1>VALVE TROMBONE</h1>
+                <p class="price">$1200</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est praesentium eos eaque, excepturi necessitatibus
+                    aliquam consectetur, obcaecati omnis tenetur corporis odit cum repudiandae dolore eum pariatur saepe illo,
+                    aperiam fugiat?</p>
+                <p><button>SELECT</button></p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <nav>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Contact</a>
+        </nav>
+        <div>&copy; 2020, Original Trombones</div>
+    </footer>
+</body>
+</html>
